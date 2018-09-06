@@ -24,6 +24,16 @@
 		6AF9B1D021411097007BB2FF /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1C721411097007BB2FF /* CircleButton.swift */; };
 		6AF9B1D221411146007BB2FF /* SlashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1D121411146007BB2FF /* SlashScreenVC.swift */; };
 		6AF9B1D4214111F7007BB2FF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1D3214111F7007BB2FF /* MainVC.swift */; };
+		6AF9B1ED21411E98007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1DA21411E97007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		6AF9B1EE21411E98007BB2FF /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1DB21411E97007BB2FF /* TPKeyboardAvoidingTableView.m */; };
+		6AF9B1EF21411E98007BB2FF /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1DC21411E97007BB2FF /* TPKeyboardAvoidingScrollView.m */; };
+		6AF9B1F021411E98007BB2FF /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1DE21411E97007BB2FF /* TPKeyboardAvoidingCollectionView.m */; };
+		6AF9B1F121411E98007BB2FF /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1E121411E97007BB2FF /* iOSDropDown.swift */; };
+		6AF9B1F321411E98007BB2FF /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1E521411E97007BB2FF /* SSRadioButtonsController.swift */; };
+		6AF9B1F421411E98007BB2FF /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1E621411E97007BB2FF /* SSRadioButton.swift */; };
+		6AF9B1F521411E98007BB2FF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1E821411E97007BB2FF /* Reachability.m */; };
+		6AF9B1F621411E98007BB2FF /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1EB21411E97007BB2FF /* SCLAlertView.swift */; };
+		6AF9B1F721411E98007BB2FF /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B1EC21411E97007BB2FF /* SCLExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +56,22 @@
 		6AF9B1C721411097007BB2FF /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		6AF9B1D121411146007BB2FF /* SlashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlashScreenVC.swift; sourceTree = "<group>"; };
 		6AF9B1D3214111F7007BB2FF /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		6AF9B1D521411E4C007BB2FF /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		6AF9B1D821411E97007BB2FF /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		6AF9B1D921411E97007BB2FF /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		6AF9B1DA21411E97007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		6AF9B1DB21411E97007BB2FF /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		6AF9B1DC21411E97007BB2FF /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		6AF9B1DD21411E97007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		6AF9B1DE21411E97007BB2FF /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		6AF9B1DF21411E97007BB2FF /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		6AF9B1E121411E97007BB2FF /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		6AF9B1E521411E97007BB2FF /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		6AF9B1E621411E97007BB2FF /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		6AF9B1E821411E97007BB2FF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6AF9B1E921411E97007BB2FF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6AF9B1EB21411E97007BB2FF /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		6AF9B1EC21411E97007BB2FF /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,7 @@
 		6AF9B19421410BA2007BB2FF = {
 			isa = PBXGroup;
 			children = (
+				6AF9B1D521411E4C007BB2FF /* Header.h */,
 				6AF9B19F21410BA2007BB2FF /* MitKhnhom */,
 				6AF9B19E21410BA2007BB2FF /* Products */,
 			);
@@ -78,6 +105,7 @@
 		6AF9B19F21410BA2007BB2FF /* MitKhnhom */ = {
 			isa = PBXGroup;
 			children = (
+				6AF9B1D621411E97007BB2FF /* Library */,
 				6AF9B1BB21411097007BB2FF /* Utilities */,
 				6AF9B1B521410E21007BB2FF /* VC */,
 				6AF9B1B221410D4B007BB2FF /* Storyboard */,
@@ -156,6 +184,68 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		6AF9B1D621411E97007BB2FF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B1D721411E97007BB2FF /* TPKeyboardAvoiding */,
+				6AF9B1E021411E97007BB2FF /* iOSDropdown */,
+				6AF9B1E421411E97007BB2FF /* SSRadioButtonController */,
+				6AF9B1E721411E97007BB2FF /* Reachability */,
+				6AF9B1EA21411E97007BB2FF /* SCLAlertView */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6AF9B1D721411E97007BB2FF /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B1D821411E97007BB2FF /* TPKeyboardAvoidingScrollView.h */,
+				6AF9B1D921411E97007BB2FF /* TPKeyboardAvoidingCollectionView.h */,
+				6AF9B1DA21411E97007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				6AF9B1DB21411E97007BB2FF /* TPKeyboardAvoidingTableView.m */,
+				6AF9B1DC21411E97007BB2FF /* TPKeyboardAvoidingScrollView.m */,
+				6AF9B1DD21411E97007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				6AF9B1DE21411E97007BB2FF /* TPKeyboardAvoidingCollectionView.m */,
+				6AF9B1DF21411E97007BB2FF /* TPKeyboardAvoidingTableView.h */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		6AF9B1E021411E97007BB2FF /* iOSDropdown */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B1E121411E97007BB2FF /* iOSDropDown.swift */,
+			);
+			path = iOSDropdown;
+			sourceTree = "<group>";
+		};
+		6AF9B1E421411E97007BB2FF /* SSRadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B1E521411E97007BB2FF /* SSRadioButtonsController.swift */,
+				6AF9B1E621411E97007BB2FF /* SSRadioButton.swift */,
+			);
+			path = SSRadioButtonController;
+			sourceTree = "<group>";
+		};
+		6AF9B1E721411E97007BB2FF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B1E821411E97007BB2FF /* Reachability.m */,
+				6AF9B1E921411E97007BB2FF /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		6AF9B1EA21411E97007BB2FF /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B1EB21411E97007BB2FF /* SCLAlertView.swift */,
+				6AF9B1EC21411E97007BB2FF /* SCLExtensions.swift */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,16 +318,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF9B1CC21411097007BB2FF /* UIViewController+Extension.swift in Sources */,
+				6AF9B1EE21411E98007BB2FF /* TPKeyboardAvoidingTableView.m in Sources */,
+				6AF9B1F721411E98007BB2FF /* SCLExtensions.swift in Sources */,
+				6AF9B1F321411E98007BB2FF /* SSRadioButtonsController.swift in Sources */,
 				6AF9B1D4214111F7007BB2FF /* MainVC.swift in Sources */,
 				6AF9B1CA21411097007BB2FF /* UIColor+Extension.swift in Sources */,
+				6AF9B1F421411E98007BB2FF /* SSRadioButton.swift in Sources */,
 				6AF9B1CD21411097007BB2FF /* PHAsset+Extension.swift in Sources */,
+				6AF9B1ED21411E98007BB2FF /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				6AF9B1CF21411097007BB2FF /* Array+Extension.swift in Sources */,
 				6AF9B1CB21411097007BB2FF /* URL+Extension.swift in Sources */,
+				6AF9B1F621411E98007BB2FF /* SCLAlertView.swift in Sources */,
 				6AF9B1D021411097007BB2FF /* CircleButton.swift in Sources */,
 				6AF9B1BA21411031007BB2FF /* RootVC.swift in Sources */,
+				6AF9B1F121411E98007BB2FF /* iOSDropDown.swift in Sources */,
+				6AF9B1F021411E98007BB2FF /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				6AF9B1C821411097007BB2FF /* AppManager.swift in Sources */,
 				6AF9B1CE21411097007BB2FF /* AppDelegate+Extension.swift in Sources */,
 				6AF9B1C921411097007BB2FF /* UserHelper.swift in Sources */,
+				6AF9B1F521411E98007BB2FF /* Reachability.m in Sources */,
+				6AF9B1EF21411E98007BB2FF /* TPKeyboardAvoidingScrollView.m in Sources */,
 				6AF9B1A121410BA2007BB2FF /* AppDelegate.swift in Sources */,
 				6AF9B1D221411146007BB2FF /* SlashScreenVC.swift in Sources */,
 				6AF9B1B721410E3A007BB2FF /* LoginVC.swift in Sources */,
@@ -385,13 +485,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = YES;
 				INFOPLIST_FILE = MitKhnhom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = geaesy.MitKhnhom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,13 +505,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = YES;
 				INFOPLIST_FILE = MitKhnhom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = geaesy.MitKhnhom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
